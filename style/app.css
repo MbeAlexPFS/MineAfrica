@@ -1,0 +1,44 @@
+/* Map */
+.no-checked {
+  fill: rgb(0, 0, 0);
+  fill-opacity: 0.1;
+}
+
+.no-checked:hover {
+  fill: url(#pattern);
+  fill-opacity: 0.5;
+  transition: 1s;
+}
+
+text {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  font-size: x-small;
+  fill: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+text:hover  {
+  fill: rgb(0, 0, 0);
+  text-shadow: 0 0 15px rgb(255, 255, 255);
+  transition: 0.5s;
+  font-size: medium;
+}
+
+svg {
+  background: radial-gradient(rgb(131, 128, 90),rgb(116, 123, 72));
+}
+
+.tjustify {
+  margin: 0;
+  text-indent: 2rem;
+  text-align: justify;
+}
+
+.blur {
+  backdrop-filter: blur(10px);
+}
+
+.empty {
+  fill: rgb(48, 44, 108);
+}

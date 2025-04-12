@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MineAfrica</title>
+    <link rel="stylesheet" href="../../style/bootstrap.min.css">
+    <script src="../../script/bootstrap.bundle.min.js"></script>
+    
+    <style>
+        #head {
+            background:
+            /* top, transparent black, faked with gradient */ 
+            linear-gradient(
+              rgba(0, 0, 0, 0.7), 
+              rgba(0, 0, 0, 0.7)
+            ),
+            /* bottom, image */
+            url("https://th.bing.com/th/id/R.47c1d0cd5cdb0ee20d78cd3436885146?rik=iZmOoRs0d7Czdw&pid=ImgRaw&r=0");
+
+            background-repeat: no-repeat;
+            background-size: 100% ;
+        }
+
+        .tjustify {
+          margin: 0;
+          text-indent: 2rem;
+          text-align: justify;
+        }
+
+    </style>
+</head>
+<body >
+    <nav class="navbar navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">Mine</span><span class="text-warning">Africa</span></a>
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+                class="offcanvas offcanvas-end"
+                tabindex="-1"
+                id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel"
+            >
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                        Menu
+                    </h5>
+                    <button
+                        type="button"
+                        class="btn-close text-reset"
+                        data-bs-dismiss="offcanvas"
+                        aria-label="Close"
+                    ></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a
+                                class="nav-link active"
+                                aria-current="page"
+                                href="/"
+                                >Retourner sur la carte</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#rdesc">pays description</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#stdesc">les ressources minières</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#stat">Les statistiques</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="container-sm pt-5 pb-5" id="body">
+        <div class="row mt-3 text-light text-center p-5 head" >
+            <h1><span class="city"></span></h1>     
+        </div>
+
+        <div class="row mt-3 p-5" id="rdesc">
+            <div class="col-md-4">
+                <a href="https://maps.lib.utexas.edu/maps/africa/ivory_coast_econ_1972.jpg">
+                    <img class="img-fluid" src="https://maps.lib.utexas.edu/maps/africa/ivory_coast_econ_1972.jpg">
+                </a>
+            </div>
+            <div class="col-md">
+                <h1> Géographie </h1>
+                <p class="tjustify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum ipsum similique deleniti animi hic ex vero vitae eum! Nobis, vitae in! Eum ipsum cumque ratione natus nulla repudiandae esse cum.
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus, quidem corporis. Et enim tempore labore aliquid, suscipit error omnis nam! Quaerat vitae libero voluptate placeat consectetur laborum repellat dolor obcaecati?
+                </p>
+            </div>  
+        </div>
+        
+        
+        <h1 class="p-3 mt-2">Les ressources minières</h1>
+
+        <!-- liste ressources -->
+        <div class="container" id="stdesc">
+            <div
+                class="table-responsive"
+            >
+                <table
+                    class="table table-primary"
+                >
+                    <thead>
+                        <tr>
+                            <th scope="col">Produits Minier</th>
+                            <th scope="col">Densité</th>
+                            <th scope="col">Prix</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="">
+                            <td scope="row">R1C1</td>
+                            <td>R1C2</td>
+                            <td>R1C3</td>
+                        </tr>
+                        <tr class="">
+                            <td scope="row">Item</td>
+                            <td>Item</td>
+                            <td>Item</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        
+        <h1 class="p-3 mt-2">Les statistiques</h1>
+            
+
+        <!-- stat -->
+        <div class="container" >
+            <div
+                class="row justify-content-center align-items-center g-2"
+                id="stat" >
+                <div class="col card p-2 m-2"><img src="https://cdn.statcdn.com/Statistic/950000/950609-blank-754.png" alt="" class="img-fluid">
+                    <p> Cette statistique-ci montre les bénéfices de la production de minéraux en pourcentage du produit intérieur brut (PIB) en Côte d'Ivoire de 2010 à 2016. En 2016, les bénéfices tirés des minéraux représentaient 2,42 % du produit intérieur brut du pays.</p></div>
+                <div class="col card p-2 m-2">
+                    <img src="https://cdn.statcdn.com/Statistic/950000/951530-blank-754.png" alt="" class="img-fluid">
+                    <p> Cette statistique-ci montre les bénéfices de la production de pétrole en pourcentage du produit intérieur brut (PIB) en Côte d'Ivoire de 2010 à 2016. En 2016, les bénéfices tirés du pétrole représentaient 0,46 % du produit intérieur brut, tandis qu'en 2010 les bénéfices étaient de 2,87 %.</p>
+                </div>
+            </div>
+            
+            
+        </div>
+        
+        
+    </div>
+    <div class="footer bg-dark text-white p-2 text-center">
+        <h5>Tous droits reservé MineAfrica 2025-2026</h5>
+    </div>
+</body>
+</html>

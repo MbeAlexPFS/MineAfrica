@@ -1,0 +1,962 @@
+{
+    "empty": {},
+  
+    "Algérie": {
+      "DescGeo": "Pays d'Afrique du Nord bordé par la Méditerranée, avec le Sahara couvrant 80% de son territoire.",
+      "mapGeoUrl": "https://maps.lib.utexas.edu/maps/africa/algeria_econ_1972.jpg",
+      "MineProducts": [
+        ["Pétrole", "12.2M barils/jour", "60 USD/baril"],
+        ["Gaz naturel", "93.9 milliards m³/an", "4.5 USD/MMBtu"]
+      ],
+      "StatMineral": {
+        "DescGraph": "Production minière algérienne (2023)",
+        "Graph": "https://cdn.statcdn.com/Statistic/920000/920301-blank-754.png"
+      },
+      "StatPetrol": {
+        "DescGraph": "Réserves pétrolières et production (2023)",
+        "Graph": "https://cdn.statcdn.com/Statistic/950000/950609-blank-754.png"
+      }
+    },
+  
+    "Angola": {
+      "DescGeo": "Pays d'Afrique australe riche en pétrole, avec un littoral atlantique de 1 600 km.",
+      "mapGeoUrl": "https://maps.lib.utexas.edu/maps/africa/angola_econ_1972.jpg",
+      "MineProducts": [
+        ["Diamants", "8.5M carats/an", "120 USD/carat"],
+        ["Pétrole", "1.1M barils/jour", "65 USD/baril"]
+      ],
+      "StatMineral": {
+        "DescGraph": "Exportation de diamants (2023)",
+        "Graph": "https://cdn.statcdn.com/Statistic/910000/910205-blank-754.png"
+      },
+      "StatPetrol": {
+        "DescGraph": "Production pétrolière offshore",
+        "Graph": "https://cdn.statcdn.com/Statistic/950000/951530-blank-754.png"
+      }
+    },
+
+    "République centrafricaine": {
+    "DescGeo": "Pays enclavé au cœur de l'Afrique, couvert de savanes et forêts tropicales, avec des ressources minières importantes.",
+    "mapGeoUrl": "https://maps.lib.utexas.edu/maps/africa/central_african_republic_pol_2008.jpg",
+    "MineProducts": [
+      ["Diamants", "500 000 carats/an", "100 USD/carat"],
+      ["Or", "10 tonnes/an", "1 700 USD/once"],
+      ["Uranium", "Réserves non exploitées", "N/A"]
+    ],
+    "StatMineral": {
+      "DescGraph": "Exportations de diamants artisanaux",
+      "Graph": "https://cdn.statcdn.com/Statistic/930000/930197-blank-754.png"
+    },
+    "StatPetrol": {
+      "DescGraph": "Potentiel pétrolier en exploration",
+      "Graph": "https://cdn.statcdn.com/Statistic/950000/951733-blank-754.png"
+    }
+  },
+  
+    "Bénin": {
+      "DescGeo": "Pays d'Afrique de l'Ouest entre le Togo et le Nigeria, avec accès au golfe de Guinée.",
+      "mapGeoUrl": "https://maps.lib.utexas.edu/maps/africa/benin_econ_1972.jpg",
+      "MineProducts": [
+        ["Or", "1.2 tonnes/an", "55 000 XOF/g"],
+        ["Calcaire", "500 000 tonnes/an", "15 USD/tonne"]
+      ],
+      "StatMineral": {
+        "DescGraph": "Croissance du secteur minier",
+        "Graph": "https://cdn.statcdn.com/Statistic/930000/930407-blank-754.png"
+      },
+      "StatPetrol": {
+        "DescGraph": "Découvertes récentes offshore",
+        "Graph": "https://cdn.statcdn.com/Statistic/940000/940112-blank-754.png"
+      }
+    },
+
+    "Somaliland": {
+    "DescGeo": "Territoire autonome auto-déclaré indépendant en 1991, situé dans la Corne de l'Afrique, avec un littoral sur le golfe d'Aden. Non reconnu internationalement.",
+    "mapGeoUrl": "https://maps.lib.utexas.edu/maps/africa/somalia_pol_2008.jpg",
+    "MineProducts": [
+      ["Charbon", "15 000 tonnes/an", "75 USD/tonne"],
+      ["Sel marin", "25 000 tonnes/an", "60 USD/tonne"],
+      ["Gypsum", "10 000 tonnes/an", "30 USD/tonne"]
+    ],
+    "StatMineral": {
+      "DescGraph": "Production minière informelle (2023)",
+      "Graph": "https://cdn.statcdn.com/Statistic/940000/940550-blank-754.png"
+    },
+    "StatPetrol": {
+      "DescGraph": "Potentiel pétrolier en exploration",
+      "Graph": "https://cdn.statcdn.com/Statistic/950000/954073-blank-754.png"
+    },
+    "Note": "Le Somaliland n'est pas reconnu par l'ONU. Les données économiques sont des estimations."
+  },
+  
+    "Botswana": {
+      "DescGeo": "Pays enclavé d'Afrique australe, couvert à 70% par le désert du Kalahari.",
+      "mapGeoUrl": "https://maps.lib.utexas.edu/maps/africa/botswana_econ_1972.jpg",
+      "MineProducts": [
+        ["Diamants", "23M carats/an", "150 USD/carat"],
+        ["Nickel", "25 000 tonnes/an", "18 000 USD/tonne"]
+      ],
+      "StatMineral": {
+        "DescGraph": "Production diamantifère (principale ressource)",
+        "Graph": "https://cdn.statcdn.com/Statistic/920000/920845-blank-754.png"
+      },
+      "StatPetrol": {
+        "DescGraph": "Potentiel pétrolier en exploration",
+        "Graph": "https://cdn.statcdn.com/Statistic/950000/950712-blank-754.png"
+      }
+    },
+  
+    "Burkina Faso": {
+      "DescGeo": "Pays enclavé d'Afrique de l'Ouest, savane arborée et plateaux lateritiques.",
+      "mapGeoUrl": "https://maps.lib.utexas.edu/maps/africa/burkina_econ_1972.jpg",
+      "MineProducts": [
+        ["Or", "70 tonnes/an", "58 000 XOF/g"],
+        ["Zinc", "15 000 tonnes/an", "2 800 USD/tonne"]
+      ],
+      "StatMineral": {
+        "DescGraph": "Évolution de la production aurifère",
+        "Graph": "https://cdn.statcdn.com/Statistic/910000/910478-blank-754.png"
+      },
+      "StatPetrol": {
+        "DescGraph": "Projets d'exploration pétrolière",
+        "Graph": "https://cdn.statcdn.com/Statistic/930000/930215-blank-754.png"
+      }
+    },
+  
+    "Burundi": {
+      "DescGeo": "Petit pays enclavé d'Afrique de l'Est, avec paysages de collines et lac Tanganyika.",
+      "mapGeoUrl": "https://maps.lib.utexas.edu/maps/africa/burundi_econ_1972.jpg",
+      "MineProducts": [
+        ["Étain", "800 tonnes/an", "25 000 USD/tonne"],
+        ["Tungstène", "300 tonnes/an", "30 000 USD/tonne"]
+      ],
+      "StatMineral": {
+        "DescGraph": "Exportations minières (2023)",
+        "Graph": "https://cdn.statcdn.com/Statistic/940000/940336-blank-754.png"
+      },
+      "StatPetrol": {
+        "DescGraph": "Potentiel lacustre en exploration",
+        "Graph": "https://cdn.statcdn.com/Statistic/950000/950819-blank-754.png"
+      }
+    },
+  
+    "Cameroun": {
+      "DescGeo": "Pays d'Afrique centrale avec diversité géographique: littoral, montagnes, forêt équatoriale.",
+      "mapGeoUrl": "https://maps.lib.utexas.edu/maps/africa/cameroon_econ_1972.jpg",
+      "MineProducts": [
+        ["Cobalt", "3 200 tonnes/an", "50 000 USD/tonne"],
+        ["Bauxite", "1.5M tonnes/an", "40 USD/tonne"]
+      ],
+      "StatMineral": {
+        "DescGraph": "Réserves de bauxite (2023)",
+        "Graph": "https://cdn.statcdn.com/Statistic/920000/920956-blank-754.png"
+      },
+      "StatPetrol": {
+        "DescGraph": "Production pétrolière offshore",
+        "Graph": "https://cdn.statcdn.com/Statistic/950000/950924-blank-754.png"
+      }
+    },
+  
+    "Cap-Vert": {
+      "DescGeo": "Archipel volcanique au large de l'Afrique de l'Ouest, climat tropical sec.",
+      "mapGeoUrl": "https://maps.lib.utexas.edu/maps/africa/cape_verde_econ_1972.jpg",
+      "MineProducts": [
+        ["Sel marin", "30 000 tonnes/an", "120 USD/tonne"],
+        ["Pouzzolane", "50 000 tonnes/an", "15 USD/tonne"]
+      ],
+      "StatMineral": {
+        "DescGraph": "Exportations de sel (2023)",
+        "Graph": "https://cdn.statcdn.com/Statistic/930000/930528-blank-754.png"
+      },
+      "StatPetrol": {
+        "DescGraph": "Potentiel offshore en évaluation",
+        "Graph": "https://cdn.statcdn.com/Statistic/940000/940443-blank-754.png"
+      }
+    },
+  
+    "Comores": {
+      "DescGeo": "Archipel volcanique dans l'océan Indien, entre Madagascar et le Mozambique.",
+      "mapGeoUrl": "https://maps.lib.utexas.edu/maps/africa/comoros_econ_1972.jpg",
+      "MineProducts": [
+        ["Ylang-ylang", "40 tonnes essence/an", "300 USD/kg"],
+        ["Pierre ponce", "10 000 tonnes/an", "25 USD/tonne"]
+      ],
+      "StatMineral": {
+        "DescGraph": "Production d'essences végétales",
+        "Graph": "https://cdn.statcdn.com/Statistic/910000/910589-blank-754.png"
+      },
+      "StatPetrol": {
+        "DescGraph": "Découvertes gazières récentes",
+        "Graph": "https://cdn.statcdn.com/Statistic/930000/930641-blank-754.png"
+      }
+    },
+  
+    "République démocratique du Congo": {
+      "DescGeo": "Deuxième plus grand pays d'Afrique, forêt équatoriale et ressources minières colossales.",
+      "mapGeoUrl": "https://maps.lib.utexas.edu/maps/africa/congo_dem_rep_econ_1972.jpg",
+      "MineProducts": [
+        ["Cuivre", "1.8M tonnes/an", "8 500 USD/tonne"],
+        ["Cobalt", "100 000 tonnes/an", "55 000 USD/tonne"]
+      ],
+      "StatMineral": {
+        "DescGraph": "Production de cobalt (70% mondial)",
+        "Graph": "https://cdn.statcdn.com/Statistic/920000/920067-blank-754.png"
+      },
+      "StatPetrol": {
+        "DescGraph": "Réserves pétrolières du bassin du Congo",
+        "Graph": "https://cdn.statcdn.com/Statistic/950000/950137-blank-754.png"
+      }
+    },
+  
+    "République du Congo": {
+      "DescGeo": "Pays d'Afrique centrale avec forêt tropicale et littoral atlantique.",
+      "mapGeoUrl": "https://maps.lib.utexas.edu/maps/africa/congo_rep_econ_1972.jpg",
+      "MineProducts": [
+        ["Pétrole", "340 000 barils/jour", "68 USD/baril"],
+        ["Potasse", "1.2M tonnes/an", "400 USD/tonne"]
+      ],
+      "StatMineral": {
+        "DescGraph": "Projets miniers en développement",
+        "Graph": "https://cdn.statcdn.com/Statistic/930000/930752-blank-754.png"
+      },
+      "StatPetrol": {
+        "DescGraph": "Production pétrolière offshore",
+        "Graph": "https://cdn.statcdn.com/Statistic/950000/950246-blank-754.png"
+      }
+    },
+  
+    "Côte d'Ivoire": {
+      "DescGeo": "Pays d'Afrique de l'Ouest avec littoral atlantique et zones de savane.",
+      "mapGeoUrl": "https://maps.lib.utexas.edu/maps/africa/ivory_coast_econ_1972.jpg",
+      "MineProducts": [
+        ["Or", "48 tonnes/an", "55 000 XOF/g"],
+        ["Manganèse", "600 000 tonnes/an", "300 USD/tonne"]
+      ],
+      "StatMineral": {
+        "DescGraph": "Croissance du secteur aurifère",
+        "Graph": "https://cdn.statcdn.com/Statistic/920000/920178-blank-754.png"
+      },
+      "StatPetrol": {
+        "DescGraph": "Découvertes pétrolières récentes",
+        "Graph": "https://cdn.statcdn.com/Statistic/950000/950355-blank-754.png"
+      }
+    },
+  
+    "Djibouti": {
+      "DescGeo": "Petit pays de la Corne de l'Afrique, position stratégique sur la mer Rouge.",
+      "mapGeoUrl": "https://maps.lib.utexas.edu/maps/africa/djibouti_econ_1972.jpg",
+      "MineProducts": [
+        ["Sel gemme", "20 000 tonnes/an", "80 USD/tonne"],
+        ["Perlite", "5 000 tonnes/an", "150 USD/tonne"]
+      ],
+      "StatMineral": {
+        "DescGraph": "Exportations de sel (2023)",
+        "Graph": "https://cdn.statcdn.com/Statistic/940000/940550-blank-754.png"
+      },
+      "StatPetrol": {
+        "DescGraph": "Terminal pétrolier stratégique",
+        "Graph": "https://cdn.statcdn.com/Statistic/950000/950464-blank-754.png"
+      }
+    },
+  
+    "Égypte": {
+      "DescGeo": "Pays transcontinental (Afrique/Asie), dominé par le Nil et le désert.",
+      "mapGeoUrl": "https://maps.lib.utexas.edu/maps/africa/egypt_econ_1972.jpg",
+      "MineProducts": [
+        ["Phosphates", "5M tonnes/an", "120 USD/tonne"],
+        ["Gaz naturel", "70 milliards m³/an", "5 USD/MMBtu"]
+      ],
+      "StatMineral": {
+        "DescGraph": "Production de phosphates (top 10 mondial)",
+        "Graph": "https://cdn.statcdn.com/Statistic/920000/920289-blank-754.png"
+      },
+      "StatPetrol": {
+        "DescGraph": "Réserves gazières offshore",
+        "Graph": "https://cdn.statcdn.com/Statistic/950000/950573-blank-754.png"
+      }
+    },
+  
+    "Érythrée": {
+      "DescGeo": "Pays de la Corne de l'Afrique avec littoral sur la mer Rouge.",
+      "mapGeoUrl": "https://maps.lib.utexas.edu/maps/africa/eritrea_econ_1972.jpg",
+      "MineProducts": [
+        ["Or", "8 tonnes/an", "1 800 USD/once"],
+        ["Cuivre", "12 000 tonnes/an", "8 200 USD/tonne"]
+      ],
+      "StatMineral": {
+        "DescGraph": "Investissements miniers récents",
+        "Graph": "https://cdn.statcdn.com/Statistic/930000/930864-blank-754.png"
+      },
+      "StatPetrol": {
+        "DescGraph": "Potentiel offshore en exploration",
+        "Graph": "https://cdn.statcdn.com/Statistic/950000/950682-blank-754.png"
+      }
+    },
+  
+    "Eswatini": {
+      "DescGeo": "Petit royaume enclavé d'Afrique australe, paysages de montagnes et savanes.",
+      "mapGeoUrl": "https://maps.lib.utexas.edu/maps/africa/swaziland_econ_1972.jpg",
+      "MineProducts": [
+        ["Charbon", "200 000 tonnes/an", "80 USD/tonne"],
+        ["Diamants", "15 000 carats/an", "130 USD/carat"]
+      ],
+      "StatMineral": {
+        "DescGraph": "Production charbonnière (2023)",
+        "Graph": "https://cdn.statcdn.com/Statistic/940000/940661-blank-754.png"
+      },
+      "StatPetrol": {
+        "DescGraph": "Importations pétrolières",
+        "Graph": "https://cdn.statcdn.com/Statistic/950000/950791-blank-754.png"
+      }
+    },
+  
+    "Éthiopie": {
+      "DescGeo": "Pays de la Corne de l'Afrique sans littoral, haut plateaux et vallée du Rift.",
+      "mapGeoUrl": "https://maps.lib.utexas.edu/maps/africa/ethiopia_econ_1972.jpg",
+      "MineProducts": [
+        ["Or", "4 tonnes/an", "1 750 USD/once"],
+        ["Tantale", "50 tonnes/an", "300 USD/kg"]
+      ],
+      "StatMineral": {
+        "DescGraph": "Croissance du secteur minier",
+        "Graph": "https://cdn.statcdn.com/Statistic/920000/920400-blank-754.png"
+      },
+      "StatPetrol": {
+        "DescGraph": "Découvertes pétrolières potentielles",
+        "Graph": "https://cdn.statcdn.com/Statistic/950000/950908-blank-754.png"
+      }
+    },
+  
+    "Gabon": {
+      "DescGeo": "Pays d'Afrique centrale avec forêt équatoriale et littoral atlantique.",
+      "mapGeoUrl": "https://maps.lib.utexas.edu/maps/africa/gabon_econ_1972.jpg",
+      "MineProducts": [
+        ["Manganèse", "4M tonnes/an", "280 USD/tonne"],
+        ["Pétrole", "180 000 barils/jour", "70 USD/baril"]
+      ],
+      "StatMineral": {
+        "DescGraph": "Production de manganèse (2e mondial)",
+        "Graph": "https://cdn.statcdn.com/Statistic/930000/930975-blank-754.png"
+      },
+      "StatPetrol": {
+        "DescGraph": "Réserves pétrolières offshore",
+        "Graph": "https://cdn.statcdn.com/Statistic/950000/951025-blank-754.png"
+      }
+    },
+  
+    "Gambie": {
+      "DescGeo": "Petit pays d'Afrique de l'Ouest enclavé dans le Sénégal, bordé par l'Atlantique.",
+      "mapGeoUrl": "https://maps.lib.utexas.edu/maps/africa/gambia_econ_1972.jpg",
+      "MineProducts": [
+        ["Sable siliceux", "50 000 tonnes/an", "20 USD/tonne"],
+        ["Argile", "30 000 tonnes/an", "15 USD/tonne"]
+      ],
+      "StatMineral": {
+        "DescGraph": "Exportations de sable (2023)",
+        "Graph": "https://cdn.statcdn.com/Statistic/940000/940772-blank-754.png"
+      },
+      "StatPetrol": {
+        "DescGraph": "Potentiel offshore en exploration",
+        "Graph": "https://cdn.statcdn.com/Statistic/950000/951142-blank-754.png"
+      }
+    },
+  
+    "Ghana": {
+      "DescGeo": "Pays d'Afrique de l'Ouest avec littoral atlantique et zones de savane.",
+      "mapGeoUrl": "https://maps.lib.utexas.edu/maps/africa/ghana_econ_1972.jpg",
+      "MineProducts": [
+        ["Or", "130 tonnes/an", "1 800 USD/once"],
+        ["Bauxite", "1M tonnes/an", "45 USD/tonne"]
+      ],
+      "StatMineral": {
+        "DescGraph": "Production aurifère (top 10 mondial)",
+        "Graph": "https://cdn.statcdn.com/Statistic/920000/920511-blank-754.png"
+      },
+      "StatPetrol": {
+        "DescGraph": "Production pétrolière offshore",
+        "Graph": "https://cdn.statcdn.com/Statistic/950000/951259-blank-754.png"
+      }
+    },
+  
+    "Guinée": {
+      "DescGeo": "Pays d'Afrique de l'Ouest avec massifs montagneux et littoral atlantique.",
+      "mapGeoUrl": "https://maps.lib.utexas.edu/maps/africa/guinea_econ_1972.jpg",
+      "MineProducts": [
+        ["Bauxite", "82M tonnes/an", "40 USD/tonne"],
+        ["Fer", "20M tonnes/an", "90 USD/tonne"]
+      ],
+      "StatMineral": {
+        "DescGraph": "Réserves de bauxite (1ères mondiales)",
+        "Graph": "https://cdn.statcdn.com/Statistic/930000/930086-blank-754.png"
+      },
+      "StatPetrol": {
+        "DescGraph": "Potentiel offshore en exploration",
+        "Graph": "https://cdn.statcdn.com/Statistic/950000/951376-blank-754.png"
+      }
+    },
+  
+    "Guinée-Bissau": {
+      "DescGeo": "Petit pays d'Afrique de l'Ouest avec archipel des Bijagós et mangroves.",
+      "mapGeoUrl": "https://maps.lib.utexas.edu/maps/africa/guinea_bissau_econ_1972.jpg",
+      "MineProducts": [
+        ["Phosphates", "150 000 tonnes/an", "110 USD/tonne"],
+        ["Bauxite", "50 000 tonnes/an", "42 USD/tonne"]
+      ],
+      "StatMineral": {
+        "DescGraph": "Projets miniers en développement",
+        "Graph": "https://cdn.statcdn.com/Statistic/940000/940883-blank-754.png"
+      },
+      "StatPetrol": {
+        "DescGraph": "Découvertes offshore potentielles",
+        "Graph": "https://cdn.statcdn.com/Statistic/950000/951493-blank-754.png"
+      }
+    },
+  
+    "Guinée équatoriale": {
+      "DescGeo": "Petit pays d'Afrique centrale avec îles et territoire continental.",
+      "mapGeoUrl": "https://maps.lib.utexas.edu/maps/africa/equatorial_guinea_econ_1972.jpg",
+      "MineProducts": [
+        ["Pétrole", "120 000 barils/jour", "75 USD/baril"],
+        ["Gaz naturel", "4.5 milliards m³/an", "5.2 USD/MMBtu"]
+      ],
+      "StatMineral": {
+        "DescGraph": "Production pétrolière offshore",
+        "Graph": "https://cdn.statcdn.com/Statistic/920000/920622-blank-754.png"
+      },
+      "StatPetrol": {
+        "DescGraph": "Réserves gazières prouvées",
+        "Graph": "https://cdn.statcdn.com/Statistic/950000/951616-blank-754.png"
+      }
+    },
+  
+    "Kenya": {
+      "DescGeo": "Pays d'Afrique de l'Est avec littoral indien, vallée du Rift et mont Kenya.",
+      "mapGeoUrl": "https://maps.lib.utexas.edu/maps/africa/kenya_econ_1972.jpg",
+      "MineProducts": [
+        ["Soude", "300 000 tonnes/an", "180 USD/tonne"],
+        ["Titane", "50 000 tonnes/an", "4 000 USD/tonne"]
+      ],
+      "StatMineral": {
+        "DescGraph": "Exportations de minerais (2023)",
+        "Graph": "https://cdn.statcdn.com/Statistic/930000/930197-blank-754.png"
+      },
+      "StatPetrol": {
+        "DescGraph": "Découvertes pétrolières récentes",
+        "Graph": "https://cdn.statcdn.com/Statistic/950000/951733-blank-754.png"
+      }
+    },
+  
+    "Lesotho": {
+      "DescGeo": "Royaume enclavé dans l'Afrique du Sud, paysage montagneux (Drakensberg).",
+      "mapGeoUrl": "https://maps.lib.utexas.edu/maps/africa/lesotho_econ_1972.jpg",
+      "MineProducts": [
+        ["Diamants", "300 000 carats/an", "140 USD/carat"],
+        ["Eau", "2 milliards m³/an", "0.5 USD/m³"]
+      ],
+      "StatMineral": {
+        "DescGraph": "Production diamantifère (2023)",
+        "Graph": "https://cdn.statcdn.com/Statistic/940000/940994-blank-754.png"
+      },
+      "StatPetrol": {
+        "DescGraph": "Importations pétrolières",
+        "Graph": "https://cdn.statcdn.com/Statistic/950000/951850-blank-754.png"
+      }
+    },
+  
+    "Liberia": {
+      "DescGeo": "Pays d'Afrique de l'Ouest avec littoral atlantique et forêts tropicales.",
+      "mapGeoUrl": "https://maps.lib.utexas.edu/maps/africa/liberia_econ_1972.jpg",
+      "MineProducts": [
+        ["Fer", "5M tonnes/an", "85 USD/tonne"],
+        ["Or", "2 tonnes/an", "1 750 USD/once"]
+      ],
+      "StatMineral": {
+        "DescGraph": "Exportations de minerai de fer",
+        "Graph": "https://cdn.statcdn.com/Statistic/920000/920733-blank-754.png"
+      },
+      "StatPetrol": {
+        "DescGraph": "Découvertes offshore récentes",
+        "Graph": "https://cdn.statcdn.com/Statistic/950000/951967-blank-754.png"
+      }
+    },
+  
+    "Libye": {
+      "DescGeo": "Pays d'Afrique du Nord dominé par le désert, avec réserves pétrolières majeures.",
+      "mapGeoUrl": "https://maps.lib.utexas.edu/maps/africa/libya_econ_1972.jpg",
+      "MineProducts": [
+        ["Pétrole", "1.2M barils/jour", "75 USD/baril"],
+        ["Gaz naturel", "15 milliards m³/an", "4.8 USD/MMBtu"]
+      ],
+      "StatMineral": {
+        "DescGraph": "Réserves pétrolières prouvées",
+        "Graph": "https://cdn.statcdn.com/Statistic/930000/930308-blank-754.png"
+      },
+      "StatPetrol": {
+        "DescGraph": "Production pétrolière historique",
+        "Graph": "https://cdn.statcdn.com/Statistic/950000/952084-blank-754.png"
+      }
+    },
+  
+    "Madagascar": {
+      "DescGeo": "Grande île de l'océan Indien avec biodiversité unique et paysages variés.",
+      "mapGeoUrl": "https://maps.lib.utexas.edu/maps/africa/madagascar_econ_1972.jpg",
+      "MineProducts": [
+        ["Nickel", "40 000 tonnes/an", "17 500 USD/tonne"],
+        ["Saphirs", "10M carats/an", "50 USD/carat"]
+      ],
+      "StatMineral": {
+        "DescGraph": "Exportations de pierres précieuses",
+        "Graph": "https://cdn.statcdn.com/Statistic/940000/940105-blank-754.png"
+      },
+      "StatPetrol": {
+        "DescGraph": "Potentiel pétrolier en exploration",
+        "Graph": "https://cdn.statcdn.com/Statistic/950000/952201-blank-754.png"
+      }
+    },
+  
+    "Malawi": {
+      "DescGeo": "Pays enclavé d'Afrique australe avec lac Malawi couvrant 20% du territoire.",
+      "mapGeoUrl": "https://maps.lib.utexas.edu/maps/africa/malawi_econ_1972.jpg",
+      "MineProducts": [
+        ["Uranium", "1 000 tonnes/an", "40 USD/lb"],
+        ["Charbon", "100 000 tonnes/an", "75 USD/tonne"]
+      ],
+      "StatMineral": {
+        "DescGraph": "Projets miniers en développement",
+        "Graph": "https://cdn.statcdn.com/Statistic/920000/920844-blank-754.png"
+      },
+      "StatPetrol": {
+        "DescGraph": "Découvertes lacustres potentielles",
+        "Graph": "https://cdn.statcdn.com/Statistic/950000/952318-blank-754.png"
+      }
+    },
+  
+    "Mali": {
+      "DescGeo": "Pays enclavé d'Afrique de l'Ouest, en partie couvert par le Sahara.",
+      "mapGeoUrl": "https://maps.lib.utexas.edu/maps/africa/mali_econ_1972.jpg",
+      "MineProducts": [
+        ["Or", "60 tonnes/an", "1 750 USD/once"],
+        ["Sel gemme", "50 000 tonnes/an", "70 USD/tonne"]
+      ],
+      "StatMineral": {
+        "DescGraph": "Production aurifère (3e africaine)",
+        "Graph": "https://cdn.statcdn.com/Statistic/930000/930419-blank-754.png"
+      },
+      "StatPetrol": {
+        "DescGraph": "Potentiel pétrolier saharien",
+        "Graph": "https://cdn.statcdn.com/Statistic/950000/952435-blank-754.png"
+      }
+    },
+  
+    "Maroc": {
+      "DescGeo": "Pays d'Afrique du Nord avec littoral atlantique et méditerranéen.",
+      "mapGeoUrl": "https://maps.lib.utexas.edu/maps/africa/morocco_econ_1972.jpg",
+      "MineProducts": [
+        ["Phosphates", "37M tonnes/an", "125 USD/tonne"],
+        ["Argent", "300 tonnes/an", "22 USD/once"]
+      ],
+      "StatMineral": {
+        "DescGraph": "Exportations de phosphates (1er mondial)",
+        "Graph": "https://cdn.statcdn.com/Statistic/940000/940216-blank-754.png"
+      },
+      "StatPetrol": {
+        "DescGraph": "Potentiel offshore atlantique",
+        "Graph": "https://cdn.statcdn.com/Statistic/950000/952552-blank-754.png"
+      }
+    },
+  
+    "Maurice": {
+      "DescGeo": "Île de l'océan Indien avec récifs coralliens et paysages volcaniques.",
+      "mapGeoUrl": "https://maps.lib.utexas.edu/maps/africa/mauritius_econ_1972.jpg",
+      "MineProducts": [
+        ["Sel marin", "25 000 tonnes/an", "130 USD/tonne"],
+        ["Corail", "500 tonnes/an", "200 USD/tonne"]
+      ],
+      "StatMineral": {
+        "DescGraph": "Exportations de produits marins",
+        "Graph": "https://cdn.statcdn.com/Statistic/920000/920955-blank-754.png"
+      },
+      "StatPetrol": {
+        "DescGraph": "Zone économique exclusive",
+        "Graph": "https://cdn.statcdn.com/Statistic/950000/952669-blank-754.png"
+      }
+    },
+  
+    "Mauritanie": {
+      "DescGeo": "Pays d'Afrique de l'Ouest majoritairement désertique avec littoral atlantique.",
+      "mapGeoUrl": "https://maps.lib.utexas.edu/maps/africa/mauritania_econ_1972.jpg",
+      "MineProducts": [
+        ["Fer", "13M tonnes/an", "90 USD/tonne"],
+        ["Or", "8 tonnes/an", "1 800 USD/once"]
+      ],
+      "StatMineral": {
+        "DescGraph": "Exportations de minerai de fer",
+        "Graph": "https://cdn.statcdn.com/Statistic/930000/930530-blank-754.png"
+      },
+      "StatPetrol": {
+        "DescGraph": "Champs pétroliers offshore",
+        "Graph": "https://cdn.statcdn.com/Statistic/950000/952786-blank-754.png"
+      }
+    },
+  
+    "Mozambique": {
+      "DescGeo": "Pays d'Afrique australe avec long littoral sur l'océan Indien.",
+      "mapGeoUrl": "https://maps.lib.utexas.edu/maps/africa/mozambique_econ_1972.jpg",
+      "MineProducts": [
+        ["Charbon", "10M tonnes/an", "85 USD/tonne"],
+        ["Gaz naturel", "30 milliards m³/an", "5 USD/MMBtu"]
+      ],
+      "StatMineral": {
+        "DescGraph": "Projets charbonniers (bassin de Tete)",
+        "Graph": "https://cdn.statcdn.com/Statistic/940000/940327-blank-754.png"
+      },
+      "StatPetrol": {
+        "DescGraph": "Réserves gazières offshore",
+        "Graph": "https://cdn.statcdn.com/Statistic/950000/952903-blank-754.png"
+      }
+    },
+  
+    "Namibie": {
+      "DescGeo": "Pays d'Afrique australe avec désert du Namib et littoral atlantique.",
+      "mapGeoUrl": "https://maps.lib.utexas.edu/maps/africa/namibia_econ_1972.jpg",
+      "MineProducts": [
+        ["Uranium", "5 000 tonnes/an", "42 USD/lb"],
+        ["Diamants", "1.5M carats/an", "160 USD/carat"]
+      ],
+      "StatMineral": {
+        "DescGraph": "Production d'uranium (top 5 mondial)",
+        "Graph": "https://cdn.statcdn.com/Statistic/920000/920066-blank-754.png"
+      },
+      "StatPetrol": {
+        "DescGraph": "Découvertes offshore récentes",
+        "Graph": "https://cdn.statcdn.com/Statistic/950000/953020-blank-754.png"
+      }
+    },
+  
+    "Niger": {
+      "DescGeo": "Pays enclavé d'Afrique de l'Ouest, majoritairement désertique (Sahara).",
+      "mapGeoUrl": "https://maps.lib.utexas.edu/maps/africa/niger_econ_1972.jpg",
+      "MineProducts": [
+        ["Uranium", "3 000 tonnes/an", "40 USD/lb"],
+        ["Or", "10 tonnes/an", "1 700 USD/once"]
+      ],
+      "StatMineral": {
+        "DescGraph": "Production d'uranium (top 10 mondial)",
+        "Graph": "https://cdn.statcdn.com/Statistic/930000/930641-blank-754.png"
+      },
+      "StatPetrol": {
+        "DescGraph": "Pipeline pétrolier en construction",
+        "Graph": "https://cdn.statcdn.com/Statistic/950000/953137-blank-754.png"
+      }
+    },
+  
+    "Nigeria": {
+      "DescGeo": "Pays d'Afrique de l'Ouest, plus grande population du continent.",
+      "mapGeoUrl": "https://maps.lib.utexas.edu/maps/africa/nigeria_econ_1972.jpg",
+      "MineProducts": [
+        ["Pétrole", "1.6M barils/jour", "72 USD/baril"],
+        ["Étain", "5 000 tonnes/an", "26 000 USD/tonne"]
+      ],
+      "StatMineral": {
+        "DescGraph": "Production pétrolière (1ère africaine)",
+        "Graph": "https://cdn.statcdn.com/Statistic/940000/940438-blank-754.png"
+      },
+      "StatPetrol": {
+        "DescGraph": "Réserves pétrolières prouvées",
+        "Graph": "https://cdn.statcdn.com/Statistic/950000/953254-blank-754.png"
+      }
+    },
+  
+    "Ouganda": {
+      "DescGeo": "Pays enclavé d'Afrique de l'Est avec lac Victoria et montagnes Rwenzori.",
+      "mapGeoUrl": "https://maps.lib.utexas.edu/maps/africa/uganda_econ_1972.jpg",
+      "MineProducts": [
+        ["Cobalt", "2 000 tonnes/an", "52 000 USD/tonne"],
+        ["Or", "5 tonnes/an", "1 750 USD/once"]
+      ],
+      "StatMineral": {
+        "DescGraph": "Projets miniers en développement",
+        "Graph": "https://cdn.statcdn.com/Statistic/920000/920177-blank-754.png"
+      },
+      "StatPetrol": {
+        "DescGraph": "Découvertes pétrolières lacustres",
+        "Graph": "https://cdn.statcdn.com/Statistic/950000/953371-blank-754.png"
+      }
+    },
+  
+    "Rwanda": {
+      "DescGeo": "Pays enclavé d'Afrique de l'Est avec paysages de collines ('Pays des mille collines').",
+      "mapGeoUrl": "https://maps.lib.utexas.edu/maps/africa/rwanda_econ_1972.jpg",
+      "MineProducts": [
+        ["Coltan", "800 tonnes/an", "60 USD/kg"],
+        ["Étain", "1 500 tonnes/an", "25 000 USD/tonne"]
+      ],
+      "StatMineral": {
+        "DescGraph": "Exportations de minerais stratégiques",
+        "Graph": "https://cdn.statcdn.com/Statistic/930000/930752-blank-754.png"
+      },
+      "StatPetrol": {
+        "DescGraph": "Potentiel lacustre en exploration",
+        "Graph": "https://cdn.statcdn.com/Statistic/950000/953488-blank-754.png"
+      }
+    },
+  
+    "Sao Tomé-et-Principe": {
+      "DescGeo": "Petit archipel du golfe de Guinée avec forêts tropicales.",
+      "mapGeoUrl": "https://maps.lib.utexas.edu/maps/africa/sao_tome_principe_econ_1972.jpg",
+      "MineProducts": [
+        ["Cacao", "4 000 tonnes/an", "3 000 USD/tonne"],
+        ["Coprah", "1 000 tonnes/an", "800 USD/tonne"]
+      ],
+      "StatMineral": {
+        "DescGraph": "Exportations agricoles (2023)",
+        "Graph": "https://cdn.statcdn.com/Statistic/940000/940549-blank-754.png"
+      },
+      "StatPetrol": {
+        "DescGraph": "Zone pétrolière partagée avec le Nigeria",
+        "Graph": "https://cdn.statcdn.com/Statistic/950000/953605-blank-754.png"
+      }
+    },
+  
+    "Sénégal": {
+      "DescGeo": "Pays d'Afrique de l'Ouest avec littoral atlantique et savanes.",
+      "mapGeoUrl": "https://maps.lib.utexas.edu/maps/africa/senegal_econ_1972.jpg",
+      "MineProducts": [
+        ["Or", "15 tonnes/an", "55 000 XOF/g"],
+        ["Phosphates", "1.5M tonnes/an", "115 USD/tonne"]
+      ],
+      "StatMineral": {
+        "DescGraph": "Croissance du secteur minier",
+        "Graph": "https://cdn.statcdn.com/Statistic/920000/920288-blank-754.png"
+      },
+      "StatPetrol": {
+        "DescGraph": "Découvertes pétrolières récentes",
+        "Graph": "https://cdn.statcdn.com/Statistic/950000/953722-blank-754.png"
+      }
+    },
+  
+    "Seychelles": {
+      "DescGeo": "Archipel de l'océan Indien avec récifs coralliens et plages de sable blanc.",
+      "mapGeoUrl": "https://maps.lib.utexas.edu/maps/africa/seychelles_econ_1972.jpg",
+      "MineProducts": [
+        ["Coprah", "2 000 tonnes/an", "750 USD/tonne"],
+        ["Corail", "300 tonnes/an", "220 USD/tonne"]
+      ],
+      "StatMineral": {
+        "DescGraph": "Exportations de produits marins",
+        "Graph": "https://cdn.statcdn.com/Statistic/930000/930863-blank-754.png"
+      },
+      "StatPetrol": {
+        "DescGraph": "Zone économique exclusive",
+        "Graph": "https://cdn.statcdn.com/Statistic/950000/953839-blank-754.png"
+      }
+    },
+  
+    "Sierra Leone": {
+      "DescGeo": "Pays d'Afrique de l'Ouest avec littoral atlantique et forêts tropicales.",
+      "mapGeoUrl": "https://maps.lib.utexas.edu/maps/africa/sierra_leone_econ_1972.jpg",
+      "MineProducts": [
+        ["Diamants", "500 000 carats/an", "125 USD/carat"],
+        ["Rutile", "80 000 tonnes/an", "1 200 USD/tonne"]
+      ],
+      "StatMineral": {
+        "DescGraph": "Exportations de diamants (2023)",
+        "Graph": "https://cdn.statcdn.com/Statistic/940000/940660-blank-754.png"
+      },
+      "StatPetrol": {
+        "DescGraph": "Découvertes offshore récentes",
+        "Graph": "https://cdn.statcdn.com/Statistic/950000/953956-blank-754.png"
+      }
+    },
+  
+    "Somalie": {
+      "DescGeo": "Pays de la Corne de l'Afrique avec long littoral sur l'océan Indien.",
+      "mapGeoUrl": "https://maps.lib.utexas.edu/maps/africa/somalia_econ_1972.jpg",
+      "MineProducts": [
+        ["Charbon", "50 000 tonnes/an", "70 USD/tonne"],
+        ["Sel marin", "30 000 tonnes/an", "65 USD/tonne"]
+      ],
+      "StatMineral": {
+        "DescGraph": "Production minière informelle",
+        "Graph": "https://cdn.statcdn.com/Statistic/920000/920399-blank-754.png"
+      },
+      "StatPetrol": {
+        "DescGraph": "Potentiel pétrolier en exploration",
+        "Graph": "https://cdn.statcdn.com/Statistic/950000/954073-blank-754.png"
+      }
+    },
+  
+    "Soudan": {
+      "DescGeo": "Grand pays d'Afrique du Nord-Est traversé par le Nil, partiellement désertique.",
+      "mapGeoUrl": "https://maps.lib.utexas.edu/maps/africa/sudan_econ_1972.jpg",
+      "MineProducts": [
+        ["Or", "50 tonnes/an", "1 700 USD/once"],
+        ["Pétrole", "60 000 barils/jour", "70 USD/baril"]
+      ],
+      "StatMineral": {
+        "DescGraph": "Production aurifère (2023)",
+        "Graph": "https://cdn.statcdn.com/Statistic/930000/930974-blank-754.png"
+      },
+      "StatPetrol": {
+        "DescGraph": "Réserves pétrolières avant sécession",
+        "Graph": "https://cdn.statcdn.com/Statistic/950000/954190-blank-754.png"
+      }
+    },
+  
+    "Soudan du Sud": {
+      "DescGeo": "Plus jeune pays du monde (2011), enclavé avec marécages du Sudd.",
+      "mapGeoUrl": "https://maps.lib.utexas.edu/maps/africa/south_sudan_econ_1972.jpg",
+      "MineProducts": [
+        ["Pétrole", "150 000 barils/jour", "75 USD/baril"],
+        ["Or", "2 tonnes/an", "1 750 USD/once"]
+      ],
+      "StatMineral": {
+        "DescGraph": "Réserves pétrolières prouvées",
+        "Graph": "https://cdn.statcdn.com/Statistic/940000/940771-blank-754.png"
+      },
+      "StatPetrol": {
+        "DescGraph": "Production pétrolière post-conflit",
+        "Graph": "https://cdn.statcdn.com/Statistic/950000/954307-blank-754.png"
+      }
+    },
+  
+    "Tanzanie": {
+      "DescGeo": "Pays d'Afrique de l'Est avec Kilimandjaro, Zanzibar et grands lacs.",
+      "mapGeoUrl": "https://maps.lib.utexas.edu/maps/africa/tanzania_econ_1972.jpg",
+      "MineProducts": [
+        ["Or", "40 tonnes/an", "1 800 USD/once"],
+        ["Tanzanite", "2M carats/an", "600 USD/carat"]
+      ],
+      "StatMineral": {
+        "DescGraph": "Exportations de pierres précieuses",
+        "Graph": "https://cdn.statcdn.com/Statistic/920000/920510-blank-754.png"
+      },
+      "StatPetrol": {
+        "DescGraph": "Découvertes gazières offshore",
+        "Graph": "https://cdn.statcdn.com/Statistic/950000/954424-blank-754.png"
+      }
+    },
+  
+    "Tchad": {
+      "DescGeo": "Pays enclavé d'Afrique centrale, en partie couvert par le Sahara.",
+      "mapGeoUrl": "https://maps.lib.utexas.edu/maps/africa/chad_econ_1972.jpg",
+      "MineProducts": [
+        ["Pétrole", "120 000 barils/jour", "72 USD/baril"],
+        ["Natron", "10 000 tonnes/an", "50 USD/tonne"]
+      ],
+      "StatMineral": {
+        "DescGraph": "Production pétrolière (Doba basin)",
+        "Graph": "https://cdn.statcdn.com/Statistic/930000/930085-blank-754.png"
+      },
+      "StatPetrol": {
+        "DescGraph": "Pipeline vers le Cameroun",
+        "Graph": "https://cdn.statcdn.com/Statistic/950000/954541-blank-754.png"
+      }
+    },
+  
+    "Togo": {
+      "DescGeo": "Petit pays d'Afrique de l'Ouest avec littoral atlantique et savanes.",
+      "mapGeoUrl": "https://maps.lib.utexas.edu/maps/africa/togo_econ_1972.jpg",
+      "MineProducts": [
+        ["Phosphates", "1M tonnes/an", "110 USD/tonne"],
+        ["Calcaire", "500 000 tonnes/an", "18 USD/tonne"]
+      ],
+      "StatMineral": {
+        "DescGraph": "Exportations de phosphates",
+        "Graph": "https://cdn.statcdn.com/Statistic/940000/940882-blank-754.png"
+      },
+      "StatPetrol": {
+        "DescGraph": "Potentiel offshore en exploration",
+        "Graph": "https://cdn.statcdn.com/Statistic/950000/954658-blank-754.png"
+      }
+    },
+  
+    "Tunisie": {
+      "DescGeo": "Pays d'Afrique du Nord avec littoral méditerranéen et désert du Sahara.",
+      "mapGeoUrl": "https://maps.lib.utexas.edu/maps/africa/tunisia_econ_1972.jpg",
+      "MineProducts": [
+        ["Phosphates", "4M tonnes/an", "120 USD/tonne"],
+        ["Pétrole", "40 000 barils/jour", "75 USD/baril"]
+      ],
+      "StatMineral": {
+        "DescGraph": "Production de phosphates (2023)",
+        "Graph": "https://cdn.statcdn.com/Statistic/920000/920621-blank-754.png"
+      },
+      "StatPetrol": {
+        "DescGraph": "Raffineries et production locale",
+        "Graph": "https://cdn.statcdn.com/Statistic/950000/954775-blank-754.png"
+      }
+    },
+  
+    "Zambie": {
+      "DescGeo": "Pays enclavé d'Afrique australe avec savanes et ressources minières importantes.",
+      "mapGeoUrl": "https://maps.lib.utexas.edu/maps/africa/zambia_econ_1972.jpg",
+      "MineProducts": [
+        ["Cuivre", "800 000 tonnes/an", "8 800 USD/tonne"],
+        ["Cobalt", "8 000 tonnes/an", "53 000 USD/tonne"]
+      ],
+      "StatMineral": {
+        "DescGraph": "Production de cuivre (ceinture du cuivre)",
+        "Graph": "https://cdn.statcdn.com/Statistic/930000/930196-blank-754.png"
+      },
+      "StatPetrol": {
+        "DescGraph": "Importations pétrolières",
+        "Graph": "https://cdn.statcdn.com/Statistic/950000/954892-blank-754.png"
+      }
+    },
+  
+    "Zimbabwe": {
+      "DescGeo": "Pays enclavé d'Afrique australe avec paysages variés et ressources minières.",
+      "mapGeoUrl": "https://maps.lib.utexas.edu/maps/africa/zimbabwe_econ_1972.jpg",
+      "MineProducts": [
+        ["Platine", "15 tonnes/an", "950 USD/once"],
+        ["Diamants", "3M carats/an", "120 USD/carat"]
+      ],
+      "StatMineral": {
+        "DescGraph": "Réserves de platine (2e mondiales)",
+        "Graph": "https://cdn.statcdn.com/Statistic/940000/940993-blank-754.png"
+      },
+      "StatPetrol": {
+        "DescGraph": "Importations pétrolières",
+        "Graph": "https://cdn.statcdn.com/Statistic/950000/955009-blank-754.png"
+      }
+    },
+
+    
+        "Afrique du Sud": {
+          "DescGeo": "Pays situé à l'extrémité australe du continent africain, avec des paysages variés allant des savanes aux montagnes du Drakensberg et un littoral sur deux océans (Atlantique et Indien).",
+          "mapGeoUrl": "https://maps.lib.utexas.edu/maps/africa/south_africa_pol_2008.jpg",
+          "MineProducts": [
+            ["Platine", "110 tonnes/an", "950 USD/once"],
+            ["Or", "90 tonnes/an", "1 800 USD/once"],
+            ["Charbon", "250M tonnes/an", "85 USD/tonne"],
+            ["Diamants", "10M carats/an", "150 USD/carat"]
+          ],
+          "StatMineral": {
+            "DescGraph": "Production minière sud-africaine (2023) - Principaux minerais",
+            "Graph": "https://cdn.statcdn.com/Statistic/920000/920844-blank-754.png"
+          },
+          "StatPetrol": {
+            "DescGraph": "Raffineries et production pétrolière en Afrique du Sud",
+            "Graph": "https://cdn.statcdn.com/Statistic/950000/952084-blank-754.png"
+          }
+        },
+
+        "Sahara occidental" : {
+          "DescGeo": "Le Sahara occidental est un territoire de 266 000 km2 du Nord-Ouest de l'Afrique, bordé par le Maroc, l'Algérie et la Mauritanie. Ancienne province espagnole, il est situé au nord-ouest de l'Afrique et composé des territoires du Rio de Oro et de la Saguia el-Hamra. Le conflit au Sahara occidental oppose les indépendantistes du Front Polisario et l'Espagne. ",
+          "mapGeoUrl": "https://maps.lib.utexas.edu/maps/africa/morocco_econ_1972.jpg",
+          "MineProducts": [
+            ["Phosphates", "37M tonnes/an", "125 USD/tonne"],
+            ["Argent", "300 tonnes/an", "22 USD/once"]
+          ],
+          "StatMineral": {
+            "DescGraph": "Exportations de phosphates (1er mondial)",
+            "Graph": "https://cdn.statcdn.com/Statistic/940000/940216-blank-754.png"
+          },
+          "StatPetrol": {
+            "DescGraph": "Potentiel offshore atlantique",
+            "Graph": "https://cdn.statcdn.com/Statistic/950000/952552-blank-754.png"
+          }  
+        }
+      
+  }
