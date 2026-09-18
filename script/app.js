@@ -1,13 +1,14 @@
 //------ Données ------
-sessionStorage.setItem("country","Sénégal")
+sessionStorage.setItem("country", "Sénégal")
 //site donnée
 let sitedata
-fetch('../data/data.json')
-        .then(response => response.json())
-        .then(data => {
-            sitedata = data
-        }).catch(error => { console.error('Error loading JSON data:', error);
-        });
+fetch('data/data.json')
+    .then(response => response.json())
+    .then(data => {
+        sitedata = data
+    }).catch(error => {
+        console.error('Error loading JSON data:', error);
+    });
 
 //------ Rendre la carte ------
 //Généré des couleurs
@@ -28,14 +29,14 @@ var width = window.innerWidth,
 var svg = d3.select("#my_dataviz")
     .attr("width", width)
     .attr("height", height)
-    .on("click",reset)
+    .on("click", reset)
 
 // map et projection
 var projection
 var path
 
 // charge la carte
-d3.json("../data/africa.json").then(function (data) {
+d3.json("data/africa.json").then(function (data) {
     // Ajuster la projection
     projection = d3.geoMercator().fitSize([width, height], data);
     path = d3.geoPath().projection(projection);
@@ -54,7 +55,7 @@ d3.json("../data/africa.json").then(function (data) {
         .attr("name", d => d.properties.name_fr)
         .attr("fill", "#fff")
         .attr("stroke", "#000")
-        
+
         .attr("d", path);
 
     // Ajouter les textes
@@ -63,21 +64,21 @@ d3.json("../data/africa.json").then(function (data) {
         .attr("text-anchor", "middle")
         .attr("x", d => path.centroid(d)[0])
         .attr("y", d => path.centroid(d)[1])
-        .attr("onclick",d => 'toPage("'+d.properties.name_fr+'")').text(d => d.properties.name_fr)
+        .attr("onclick", d => 'toPage("' + d.properties.name_fr + '")').text(d => d.properties.name_fr)
         .on("mouseover", (d) => raise(d.srcElement.parentNode))
 
-        //première mise à jours
-        init()
+    //première mise à jours
+    init()
 });
 
 const raise = (d) => {
     d3.select(d).raise()
-  }
+}
 
 //-- Fonction de zoom --
 //Zoom sur une region
 function zoomToFeature(event, d) {
-    if (! event.target.classList.contains("no-checked")) { //ne pas zoomer lors de la deselection
+    if (!event.target.classList.contains("no-checked")) { //ne pas zoomer lors de la deselection
         // Empêche le reset aussi
         event.stopPropagation();
 
@@ -120,22 +121,22 @@ function init() {
     //selectionne et deselectionne une region
     let mp = document.querySelectorAll(".MultiPolygon")
     mp.forEach((p) => {
-        p.setAttribute("stroke",getRandomColor())
+        p.setAttribute("stroke", getRandomColor())
         p.onclick = () => {
             if (p.classList.contains("no-checked")) {
                 mp.forEach((e) => {
-                    if (! e.classList.contains("no-checked") ) {
+                    if (!e.classList.contains("no-checked")) {
                         e.classList.add("no-checked")
                     }
                 })
                 p.classList.remove("no-checked")
                 p.setAttribute("fill", p.getAttribute("stroke"))
                 selectedRegion = p.getAttribute("name")
-              
-            }else{
+
+            } else {
                 p.classList.add("no-checked")
                 selectedRegion = "empty"
-                
+
             }
         }
     })
@@ -143,19 +144,19 @@ function init() {
     //selectionne et deselectionne une region
     mp = document.querySelectorAll(".Polygon")
     mp.forEach((p) => {
-        p.setAttribute("stroke",getRandomColor())
+        p.setAttribute("stroke", getRandomColor())
         p.onclick = () => {
             if (p.classList.contains("no-checked")) {
                 mp.forEach((e) => {
-                    if (! e.classList.contains("no-checked") ) {
+                    if (!e.classList.contains("no-checked")) {
                         e.classList.add("no-checked")
                     }
                 })
                 p.classList.remove("no-checked")
                 p.setAttribute("fill", p.getAttribute("stroke"))
                 selectedRegion = p.getAttribute("name")
-           
-            }else{
+
+            } else {
                 p.classList.add("no-checked")
                 selectedRegion = "empty"
 
@@ -165,6 +166,6 @@ function init() {
 }
 
 function toPage(country) {
-    sessionStorage.setItem("country",country)
+    sessionStorage.setItem("country", country)
     location.replace("page/site.html")
 }
